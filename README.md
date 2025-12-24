@@ -446,7 +446,7 @@ Now that we have our MCP servers set up, we can create a hierarchical crew of ag
 First, we define some constants for our application:
 
 ```python
-MODEL = 'gemini-2.5-pro-exp-03-25'
+MODEL = 'gemini-2.5-flash'
 APP_NAME = 'company_analysis_app'
 USER_ID = 'searcher_usr'
 SESSION_ID = 'searcher_session'
@@ -1181,11 +1181,11 @@ Then, run everything.
 First the MCP Servers:
 
 ```bash
-uv run mcp server/sse/search_server.py
+uv run mcp_server/sse/search_server.py
 ```
 
 ```bash
-uv run mcp server/sse/stocks_server.py
+uv run mcp_server/sse/stocks_server.py
 ```
 
 And then the A2A Servers:
@@ -1195,13 +1195,13 @@ uv run a2a_servers/agent_servers/stock_report_agent_server.py
 ```
 
 ```bash
-uv run a2a_servers/agent_servers/google_search_agent_server.py
+uv run a2a_servers/agent_servers/gsearch_report_agent_server.py
 ```
 
 And finally, the Host Agent:
 
 ```bash
-uv run a2a_servers/host_agent_server.py
+uv run a2a_servers/agent_servers/host_agent_server.py
 ```
 
 We can then contact the host agent (e.g, using the script at `a2a_servers/run_from_local_client.py`).
