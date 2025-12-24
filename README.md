@@ -20,6 +20,11 @@ For the sake of simplicity, we will use elementary agents that have access to si
 
 We imagine we want to create a team of agents able to make simple reports about American Companies; in particular, we want to be able to ask questions such as "What is the price of the stocks of the top 10 companies in the S&P 500?" or "What are the top 5 producers of lumber in the US"?
 
+## Agent Workflow
+
+<img width="799" height="541" alt="Screenshot 2025-12-24 at 5 10 15 PM" src="https://github.com/user-attachments/assets/2ca02514-f331-4d58-96dc-d0dabd05e618" />
+
+
 ## Note on the Code
 
 The code for this tutorial is available on [GitHub](https://github.com/Tsadoq/a2a-mcp-tutorial). You should clone the repository, run the code locally, play around with it, and even modify it. This tutorial has been created by starting from two sources:
