@@ -38,7 +38,6 @@ While the MCP documentation was terrific, the Google Agent2Agent repository had 
 
 [uv by Astral](https://docs.astral.sh/uv/) was used as a Python package and project manager. You can clone the repo, run `uv sync`, and then run whatever you need.
 
-![mcp_rein](https://github.com/user-attachments/assets/c8520cc2-69a1-4bfa-81e2-3b2d18b977c8)
 
 # MCP Servers
 
