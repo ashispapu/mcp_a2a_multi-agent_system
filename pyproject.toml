@@ -1,0 +1,12 @@
+[project]
+name = "a2a-mcp-tutorial"
+version = "1.0.0"
+description = "A tutorial on how to use Model Context Protocol by Anthropic and Agent2Agent Protocol by Google"
+requires-python = ">=3.12"
+dependencies = [
+    "finnhub-python>=2.4.23",
+    "google-adk>=0.1.0",
+    "mcp[cli]>=1.6.0",
+    "python-dotenv>=1.1.0",
+    "termcolor>=3.0.1",
+]
