@@ -1,4 +1,4 @@
-# Agent2Agent and MCP: An End-to-End Tutorial for a complete Agentic Pipeline
+# MCP and Agent2Agent : An End-to-End Implementation for a complete Agentic Pipeline
 
 ## Introduction
 
